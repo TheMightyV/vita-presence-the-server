@@ -1,0 +1,9 @@
+[submodule "lib/tacopie"]
+	path = lib/tacopie
+	url = https://github.com/TheMightyV/tacopie
+[submodule "lib/discord-rpc"]
+	path = lib/discord-rpc
+	url = https://github.com/discord/discord-rpc
+[submodule "lib/inih"]
+	path = lib/inih
+	url = https://github.com/benhoyt/inih
