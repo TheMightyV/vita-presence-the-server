@@ -13,12 +13,15 @@ If all goes well, your Discord nickname should be printed together with PS Vita 
 To stop the program, press Ctrl-C.
 
 # Building
+Compilation is tested under Linux and MinGW-w64
 ```
 git clone https://github.com/TheMightyV/vita-presence-the-server
 cd vita-presence-the-server
 git submodule update --init
 mkdir build && cd build
-cmake .. && make
+(if MinGW) cmake -G"MinGW Makefiles" ..
+(if Linux) cmake ..
+make
 ```
 
 # Credits
