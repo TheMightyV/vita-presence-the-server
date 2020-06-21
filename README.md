@@ -10,6 +10,8 @@ This project reimplements desktop application required for Electry's VitaPresenc
 
 If all goes well, your Discord nickname should be printed together with PS Vita game if you have it opened.
 
+To stop the program, press Ctrl-C.
+
 # Building
 ```
 git clone https://github.com/TheMightyV/vita-presence-the-server
