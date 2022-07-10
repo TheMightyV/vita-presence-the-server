@@ -9,6 +9,8 @@ add_executable(vita-presence-the-server src/main.cpp lib/inih/cpp/INIReader.cpp 
 
 if (WIN32)
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static")
+else()
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 endif(WIN32)
 
 target_include_directories(${PROJECT_NAME} PRIVATE lib)
